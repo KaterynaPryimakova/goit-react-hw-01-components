@@ -1,6 +1,6 @@
 .statistics {
-  padding: 10px;
-  max-width: 240px;
+  flex-basis: calc((100% - 75px) / 4);
+  height: fit-content;
   margin-bottom: 20px;
   border: 1px solid #5a5858a6;
   border-radius: 6px;
@@ -18,7 +18,6 @@
 }
 .statList {
   display: flex;
-  gap: 4px;
   justify-content: space-around;
   align-items: center;
 }
@@ -27,10 +26,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .label {
   font-size: 12px;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 .percentage {
   font-size: 16px;

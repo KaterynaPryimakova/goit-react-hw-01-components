@@ -13,6 +13,8 @@ export const App = () => {
     <div
       style={{
         display: 'flex',
+        gap: 25,
+        padding: '25px 0',
       }}
     >
       <Profile

@@ -1,7 +1,10 @@
 .transactionHistory {
-  max-width: 240px;
+  flex-basis: calc((100% - 75px) / 4);
   border-collapse: collapse;
-  margin-top: 20px;
+  border: 1px solid #5a5858a6;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.7);
 }
 
 .transactionHistory th,
@@ -15,9 +18,11 @@
   background-color: #68c5f0;
   color: #fff;
   text-transform: uppercase;
+  font-size: 18px;
 }
 .transactionHistory td {
   color: #00000080;
+  font-size: 14px;
 }
 
 .transactionHistory tbody tr:nth-child(even) {

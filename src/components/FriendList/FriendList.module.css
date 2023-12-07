@@ -1,3 +1,4 @@
 .friendList {
-  max-width: 240px;
+  flex-basis: calc((100% - 75px) / 4);
+  height: fit-content;
 }

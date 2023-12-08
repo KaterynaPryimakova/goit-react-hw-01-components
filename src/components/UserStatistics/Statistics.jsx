@@ -1,4 +1,4 @@
-import { generateRandomColor } from 'components/utils/generateRandomColor';
+import { generateRandomColor } from 'utils/generateRandomColor';
 import css from './Statistics.module.css';
 
 export const Statistics = ({ title = '', stats }) => {
